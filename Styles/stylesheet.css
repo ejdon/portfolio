@@ -1,67 +1,67 @@
-<style>
-     h1 {
-         color: #1F3C56;
-         text-align: center;
-         border-style: dashed;
-         border-width: 3 px;
-         border-color: #1F3C56;
-         width: 100%
-       }
-       nav {
-         border-style: dashed;
-         border-width: 2px;
-         border-color: #1F3C56;
-         width: 15%
-       }
-       a[href="https://ejdon.github.io/portfolio/"]:hover {
-         background-color: orange;
-         padding: 1rem;
+h1 {
+	color: #1F3C56;
+	text-align: center;
+	border-style: dashed;
+	background-color: white;
+	border-width: 3px;
+	border-color: #1F3C56;
+	width: 100%
+}
 
-       }
-       p {
-         color: #10171C;
-       }
-       body {
-         background-color: #D9E8F6;
-              }
-    footer {
-         color: #1F3C56;
-         text-align: center;
-         border-style: dashed;
-         border-width: 2px;
-         border-color: #1F3C56;
-         width: 25%
-       }
+.global-nav {
+	border-style: dashed;
+	background-color: white;
+	overflow: auto;
+	border-width: 2px;
+	border-color: #1F3C56;
+	width: 15%
+}
 
-       h3.headers {
-          color: #1F3C56;
-       }
+p {
+	color: #10171C;
+}
 
-       .important {
-         font-weight:bold;
-       }
-       #lead-paragraph {
-         color: purple; font-weight: bold;
-       }
-       .important:hover {
-         background-color:pink;
-       }
-       p.important {
-         width: 75%;
-       }
+body {
+	background-color: #D9E8F6;
+}
 
-       a[href="https://www.imagecomics.com/"] {
-         background-color: orange;
-         padding: 1rem;
-       }
-       a[href="http://storm.wnba.com/"] {
-         background-color: blue;
-       }
+footer {
+	color: #1F3C56;
+	text-align: center;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #1F3C56;
+	width: 100%
+}
 
-       img {
-         border-style: dashed;
-         border-color: orange;
-         border-width: 3px;
-         width:25%;
-       }
-   </style>
+.title {
+	text-align: center;
+	background-color: white;
+	border-style: dashed;
+}
+
+#bunnies:hover {
+  border-style: dashed;
+	border-color: blue;
+  background-color: white;
+}
+
+#Ebey:hover {
+  border-style: dashed;
+	border-color: blue;
+  background-color: white;
+}
+
+h2.categories {
+	color: white;
+	text-align: center;
+	background-color: navy;
+}
+
+img {
+	border-style: solid;
+	border-color: navy;
+	border-width: 3px;
+	width: 30%;
+	padding: 10px;
+}
