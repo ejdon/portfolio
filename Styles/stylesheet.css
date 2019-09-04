@@ -11,7 +11,6 @@ h1 {
 .global-nav {
 	border-style: dashed;
 	background-color: white;
-	overflow: auto;
 	border-width: 2px;
 	border-color: #1F3C56;
 	width: 15%
@@ -23,6 +22,7 @@ p {
 
 body {
 	background-color: #D9E8F6;
+	font-family: 'Heebo', sans-serif;
 }
 
 footer {
@@ -64,4 +64,36 @@ img {
 	border-width: 3px;
 	width: 30%;
 	padding: 10px;
+}
+
+.fa-anchor {
+	text-align: center;
+	color: #1F3C56;
+	padding: 20px;
+
+}
+
+.fa-water {
+	text-align: center;
+	color: #1F3C56;
+	padding: 20px;
+}
+
+.fa-binoculars {
+	text-align: center;
+	color: #1F3C56;
+	padding: 20px;
+}
+
+.holiday {
+	display: flex;
+  align-items: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	}
+.holiday-image {
+	width: 23rem;
+
+}
+
 }
