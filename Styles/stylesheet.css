@@ -1,99 +1,96 @@
 h1 {
-	color: #1F3C56;
-	text-align: center;
-	border-style: dashed;
-	background-color: white;
-	border-width: 3px;
-	border-color: #1F3C56;
-	width: 100%
+  color: #1F3C56;
+  text-align: center;
+  border-style: dashed;
+  background-color: white;
+  border-width: 3px;
+  border-color: #1F3C56;
+  width: 100%
 }
 
 .global-nav {
-	border-style: dashed;
-	background-color: white;
-	border-width: 2px;
-	border-color: #1F3C56;
-	width: 15%
+  border-style: dashed;
+  background-color: white;
+  border-width: 2px;
+  border-color: #1F3C56;
+  width: 15%
 }
 
 p {
-	color: #10171C;
+  color: #10171C;
 }
 
 body {
-	background-color: #D9E8F6;
-	font-family: 'Heebo', sans-serif;
+  background-color: #D9E8F6;
+  font-family: 'Heebo', sans-serif;
 }
 
 footer {
-	color: #1F3C56;
-	text-align: center;
-	border-style: dashed;
-	border-width: 3px;
-	border-color: #1F3C56;
-	width: 100%
+  color: #1F3C56;
+  text-align: center;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: #1F3C56;
+  width: 100%
 }
 
 .title {
-	text-align: center;
-	background-color: white;
-	border-style: dashed;
+  text-align: center;
+  background-color: white;
+  border-style: dashed;
 }
 
 #bunnies:hover {
   border-style: dashed;
-	border-color: blue;
+  border-color: blue;
   background-color: white;
 }
 
 #Ebey:hover {
   border-style: dashed;
-	border-color: blue;
+  border-color: blue;
   background-color: white;
 }
 
 h2.categories {
-	color: white;
-	text-align: center;
-	background-color: navy;
+  color: white;
+  text-align: center;
+  background-color: navy;
 }
 
 img {
-	border-style: solid;
-	border-color: navy;
-	border-width: 3px;
-	width: 30%;
-	padding: 10px;
+  border-style: solid;
+  border-color: navy;
+  border-width: 3px;
+  width: 30%;
+  padding: 10px;
 }
 
 .fa-anchor {
-	text-align: center;
-	color: #1F3C56;
-	padding: 20px;
-
+  text-align: center;
+  color: #1F3C56;
+  padding: 20px;
 }
 
 .fa-water {
-	text-align: center;
-	color: #1F3C56;
-	padding: 20px;
+  text-align: center;
+  color: #1F3C56;
+  padding: 20px;
 }
 
 .fa-binoculars {
-	text-align: center;
-	color: #1F3C56;
-	padding: 20px;
+  text-align: center;
+  color: #1F3C56;
+  padding: 20px;
 }
 
 .holiday {
-	display: flex;
+  display: flex;
   align-items: flex-start;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	}
-.holiday-image {
-	width: 23rem;
-
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
+.holiday-image {
+  width: 23rem;
 }
