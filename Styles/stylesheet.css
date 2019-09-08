@@ -51,10 +51,15 @@ i[class^="fas"] {
   padding: 20px;
 }
 
+.title:hover {
+  border: 3px dotted;
+}
+
 .title {
+  transition: border 1s;
   text-align: center;
   background-color: white;
-  border-style: dashed;
+  border: 2px dotted;
 }
 
 #bunnies:hover {
@@ -98,6 +103,11 @@ img {
   flex-wrap: wrap;
 }
 
+.holiday-image:hover {
+  width: 325px;
+  height: 325px;
+}
+
 .holiday-image {
   border: 10px solid #fff;
   float: left;
@@ -105,9 +115,4 @@ img {
   width: 300px;
   margin: 20px;
   overflow: hidden;
-}
-
-.holiday-image:hover {
-  width: 325px;
-  height: 325px;
 }
