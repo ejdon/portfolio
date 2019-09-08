@@ -9,11 +9,17 @@ h1 {
 }
 
 .global-nav {
-  border-style: dashed;
-  background-color: white;
-  border-width: 2px;
+  border: 2px dashed;
   border-color: #1F3C56;
   width: 15%
+}
+
+nav:hover {
+  background-color: white;
+}
+
+nav {
+  transition: background-color 1s;
 }
 
 p {
@@ -25,13 +31,24 @@ body {
   font-family: 'Heebo', sans-serif;
 }
 
+footer:hover {
+  background-color: white;
+}
+
 footer {
+  transition: background-color 1s;
   color: #1F3C56;
   text-align: center;
   border-style: dashed;
   border-width: 3px;
   border-color: #1F3C56;
   width: 100%
+}
+
+i[class^="fas"] {
+  text-align: center;
+  color: #1F3C56;
+  padding: 20px;
 }
 
 .title {
@@ -46,10 +63,18 @@ footer {
   background-color: white;
 }
 
+#bunnies {
+  transition: background-color 1s;
+}
+
 #Ebey:hover {
   border-style: dashed;
   border-color: blue;
   background-color: white;
+}
+
+#Ebey {
+  transition: background-color 1s;
 }
 
 h2.categories {
@@ -66,24 +91,6 @@ img {
   padding: 10px;
 }
 
-.fa-anchor {
-  text-align: center;
-  color: #1F3C56;
-  padding: 20px;
-}
-
-.fa-water {
-  text-align: center;
-  color: #1F3C56;
-  padding: 20px;
-}
-
-.fa-binoculars {
-  text-align: center;
-  color: #1F3C56;
-  padding: 20px;
-}
-
 .holiday {
   display: flex;
   align-items: flex-start;
@@ -92,5 +99,15 @@ img {
 }
 
 .holiday-image {
-  width: 23rem;
+  border: 10px solid #fff;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.holiday-image:hover {
+  width: 325px;
+  height: 325px;
 }
