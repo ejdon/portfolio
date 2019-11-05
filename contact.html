@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact for for Elena's Island Life</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/cf664912a7.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1><i class="fas fa-water"></i>Contact me!<i class="fas fa-water"></i></h1>
+        <h2>See below for how you can contact me!</h2>
+      </header>
+      <nav class="global-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bio.html">Bio</a></li>
+          <li><a href="langley.html">Featured Town: Langley</a></li>
+          <li><a href="contact.html">Contact me</a></li>
+        </ul>
+      </nav>
+      <form method="GET">
+        <label>Your name:
+        <input type="text" name="contactName">
+        </label>
+        <label>Your email:
+        <input type="email" name="contactEmail">
+        </label>
+        <label>Your phone number:
+        <input type="tel" name="contactPhone">
+        </label>
+        <label>Questions or comments:
+        <textarea name="contactQuestion" rows="4" cols="50">...what is your favorite type of cheese?</textarea>
+        </label>
+        <h2 class="title">Your opinion matters to me!</h2>
+        <fieldset class="checkbox">
+          <legend>What city on Whidbey would you like me to cover?</legend>
+          <label>
+          <input type="checkbox" name="towns" value="oak-harbor">Oak Harbor
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="towns" value="greenbank">Greenbank
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="towns" value="clinton">Clinton
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="towns" value="freeland">Freeland
+          <span class="checkmark"></span>
+          </label>
+          <label>
+          <input type="checkbox" name="towns" value="other">Other
+          <span class="checkmark"></span>
+          </label>
+        </fieldset>
+        <label id="contact-interests">
+          What are you interested in hearing about?
+          <select name="activities">
+            <option value="">Please select</option>
+            <option value="shopping">Shopping</option>
+            <option value="food">Food</option>
+            <option value="outdoors">Outdoor activities</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend>Do you wish updates were made more frequently?</legend>
+          <label>
+          <input type="radio" name="special" value="yes">Yes
+          </label>
+          <label>
+          <input type="radio" name="special" value="no">No
+          </label>
+        </fieldset>
+        <input type="submit" value="Submit!">
+      </form>
+    </main>
+    <footer>
+      <p>Posted by: Elena Donaldson</p>
+      <p>Last updated at <time datetime="2019-11-04 20:00">9:00 on 7/27/2019</time></p>
+    </footer>
+  </body>
+</html>
